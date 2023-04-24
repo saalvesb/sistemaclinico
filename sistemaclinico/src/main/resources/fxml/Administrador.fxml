@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.femass.controller.AdministradorController">
+   <children>
+      <Button fx:id="EspcButton" layoutX="476.0" layoutY="321.0" mnemonicParsing="false" onAction="#handleButton_EspecAction" prefHeight="29.0" prefWidth="211.0" text="Especialidades">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="button1" layoutX="86.0" layoutY="321.0" onAction="#handleButton_PlanoAction" prefHeight="29.0" prefWidth="211.0" text="Plano de Saúde">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="418.0" layoutY="86.0" text="Care" textFill="#00856f">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+      <Label fx:id="TxtDoctorCare1" layoutX="225.0" layoutY="86.0" text="Doctor">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+      <Label fx:id="TxtDoctorCare" layoutX="328.0" layoutY="179.0" text="Administrador" textFill="#00856f">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="770.0"
+   xmlns="http://javafx.com/javafx/8"
+   xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.femass.controller.AtendenteController">
+   <children>
+      <Button layoutX="130.0" layoutY="376.0" mnemonicParsing="false" onAction="#handleButton_MedicoAction" prefHeight="29.0" prefWidth="191.0" text="Cadastrar Médico">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="129.0" layoutY="273.0" onAction="#handleButton_PacienteAction" prefHeight="29.0" prefWidth="191.0" text="Cadastrar Paciente">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="TxtDoctorCare" layoutX="343.0" layoutY="149.0" text="Atendente" textFill="#00856f">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="TxtDoctorCare1" layoutX="224.0" layoutY="56.0" text="Doctor">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="417.0" layoutY="56.0" text="Care" textFill="#00856f">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+      <Button layoutX="450.0" layoutY="273.0" onAction="#handleButton_AgendaAction" prefHeight="29.0" prefWidth="191.0" text="Agendar">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="450.0" layoutY="376.0" onAction="#handleButton_AgendaMedicoAction" prefHeight="29.0" prefWidth="191.0" text="Consultar Agenda do Médico">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,49 @@
+[ {
+  "id" : 1,
+  "nome" : "Arthur",
+  "cpf" : "73273505001",
+  "email" : "arthur@arthur",
+  "ativo" : true,
+  "telefone" : [ "444444444" ],
+  "especialidade" : [ {
+    "especialidades" : "Oftomologista",
+    "ativo" : true,
+    "id" : 6
+  } ]
+}, {
+  "id" : 2,
+  "nome" : "Leticia",
+  "cpf" : "92752062010",
+  "email" : "leticia@leticia",
+  "ativo" : true,
+  "telefone" : [ "333333333" ],
+  "especialidade" : [ {
+    "especialidades" : "Clínico Geral",
+    "ativo" : true,
+    "id" : 3
+  } ]
+}, {
+  "id" : 3,
+  "nome" : "Priscila",
+  "cpf" : "06762013007",
+  "email" : "priscila@priscila",
+  "ativo" : true,
+  "telefone" : [ "111111111" ],
+  "especialidade" : [ {
+    "especialidades" : "Infectologista",
+    "ativo" : true,
+    "id" : 7
+  } ]
+}, {
+  "id" : 4,
+  "nome" : "João",
+  "cpf" : "25279850098",
+  "email" : "joao@joao",
+  "ativo" : true,
+  "telefone" : [ "222222222" ],
+  "especialidade" : [ {
+    "especialidades" : "Clínico Geral",
+    "ativo" : true,
+    "id" : 3
+  } ]
+} ]

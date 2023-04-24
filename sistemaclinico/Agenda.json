@@ -1,0 +1,149 @@
+[ {
+  "id" : 3,
+  "data" : "15/06",
+  "hora" : "14:00",
+  "ativo" : true,
+  "paciente" : {
+    "id" : 4,
+    "cpf" : "58209460064",
+    "nome" : "Bianca",
+    "endereco" : "Rua D",
+    "telefones" : [ "444444444" ],
+    "email" : "bianca@bianca",
+    "ativo" : true,
+    "planoSaude" : {
+      "id" : 3,
+      "planoSaude" : "Bradesco",
+      "ativo" : true
+    }
+  },
+  "medico" : {
+    "id" : 4,
+    "nome" : "Arthur",
+    "cpf" : "73273505001",
+    "email" : "arthur@arthur",
+    "ativo" : true,
+    "telefone" : [ "444444444" ],
+    "especialidade" : [ {
+      "especialidades" : "Oftomologista",
+      "ativo" : true,
+      "id" : 6
+    } ]
+  },
+  "especialidade" : {
+    "especialidades" : "Oftomologista",
+    "ativo" : true,
+    "id" : 6
+  }
+}, {
+  "id" : 2,
+  "data" : "02/05",
+  "hora" : "08:00",
+  "ativo" : true,
+  "paciente" : {
+    "id" : 1,
+    "cpf" : "75839342068",
+    "nome" : "Laura",
+    "endereco" : "Rua A",
+    "telefones" : [ "111111111" ],
+    "email" : "laura@laura",
+    "ativo" : true,
+    "planoSaude" : {
+      "id" : 1,
+      "planoSaude" : "Unimed",
+      "ativo" : true
+    }
+  },
+  "medico" : {
+    "id" : 4,
+    "nome" : "Arthur",
+    "cpf" : "73273505001",
+    "email" : "arthur@arthur",
+    "ativo" : true,
+    "telefone" : [ "444444444" ],
+    "especialidade" : [ {
+      "especialidades" : "Oftomologista",
+      "ativo" : true,
+      "id" : 6
+    } ]
+  },
+  "especialidade" : {
+    "especialidades" : "Oftomologista",
+    "ativo" : true,
+    "id" : 6
+  }
+}, {
+  "id" : 1,
+  "data" : "28/04",
+  "hora" : "09:00",
+  "ativo" : true,
+  "paciente" : {
+    "id" : 2,
+    "cpf" : "47470373063",
+    "nome" : "Bernardo",
+    "endereco" : "Rua B",
+    "telefones" : [ "222222222" ],
+    "email" : "bernardo@bernardo",
+    "ativo" : true,
+    "planoSaude" : {
+      "id" : 1,
+      "planoSaude" : "Unimed",
+      "ativo" : true
+    }
+  },
+  "medico" : {
+    "id" : 3,
+    "nome" : "Leticia",
+    "cpf" : "92752062010",
+    "email" : "leticia@leticia",
+    "ativo" : true,
+    "telefone" : [ "333333333" ],
+    "especialidade" : [ {
+      "especialidades" : "Clínico Geral",
+      "ativo" : true,
+      "id" : 3
+    } ]
+  },
+  "especialidade" : {
+    "especialidades" : "Clínico Geral",
+    "ativo" : true,
+    "id" : 3
+  }
+}, {
+  "id" : 4,
+  "data" : "25/07",
+  "hora" : "16:00",
+  "ativo" : false,
+  "paciente" : {
+    "id" : 3,
+    "cpf" : "71831217040",
+    "nome" : "Lucas",
+    "endereco" : "Rua C",
+    "telefones" : [ "333333333" ],
+    "email" : "lucas@lucas",
+    "ativo" : true,
+    "planoSaude" : {
+      "id" : 2,
+      "planoSaude" : "SulAmérica",
+      "ativo" : true
+    }
+  },
+  "medico" : {
+    "id" : 1,
+    "nome" : "Priscila",
+    "cpf" : "06762013007",
+    "email" : "priscila@priscila",
+    "ativo" : true,
+    "telefone" : [ "111111111" ],
+    "especialidade" : [ {
+      "especialidades" : "Infectologista",
+      "ativo" : true,
+      "id" : 7
+    } ]
+  },
+  "especialidade" : {
+    "especialidades" : "Infectologista",
+    "ativo" : true,
+    "id" : 7
+  }
+} ]

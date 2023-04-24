@@ -1,0 +1,33 @@
+[ {
+  "id" : 1,
+  "planoSaude" : "Unimed",
+  "ativo" : true
+}, {
+  "id" : 6,
+  "planoSaude" : "NotreDame Intermédica",
+  "ativo" : true
+}, {
+  "id" : 5,
+  "planoSaude" : "Amil",
+  "ativo" : true
+}, {
+  "id" : 2,
+  "planoSaude" : "SulAmérica",
+  "ativo" : true
+}, {
+  "id" : 3,
+  "planoSaude" : "Bradesco",
+  "ativo" : true
+}, {
+  "id" : 8,
+  "planoSaude" : "Samoc",
+  "ativo" : true
+}, {
+  "id" : 4,
+  "planoSaude" : "",
+  "ativo" : false
+}, {
+  "id" : 7,
+  "planoSaude" : "Saúde Assim",
+  "ativo" : true
+} ]

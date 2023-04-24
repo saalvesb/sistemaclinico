@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.femass.controller.AgendaMedicoController">
+   <children>
+      <ListView fx:id="listaAgenda" layoutX="421.0" layoutY="38.0" prefHeight="430.0" prefWidth="292.0" />
+      <ComboBox fx:id="CboMedicos" layoutX="63.0" layoutY="70.0" onAction="#OnAction_Medicos" prefHeight="25.0" prefWidth="219.0" promptText="Médicos" />
+   </children>
+</Pane>

@@ -1,0 +1,37 @@
+[ {
+  "especialidades" : "Infectologista",
+  "ativo" : true,
+  "id" : 7
+}, {
+  "especialidades" : "Endocrinologista",
+  "ativo" : true,
+  "id" : 5
+}, {
+  "especialidades" : "Pediatra",
+  "ativo" : false,
+  "id" : 9
+}, {
+  "especialidades" : "Clínico Geral",
+  "ativo" : true,
+  "id" : 3
+}, {
+  "especialidades" : "Cardiologista",
+  "ativo" : true,
+  "id" : 1
+}, {
+  "especialidades" : "Oftomologista",
+  "ativo" : true,
+  "id" : 6
+}, {
+  "especialidades" : "Oncologista",
+  "ativo" : true,
+  "id" : 8
+}, {
+  "especialidades" : "Dermatologista",
+  "ativo" : true,
+  "id" : 4
+}, {
+  "especialidades" : "Cirurgião",
+  "ativo" : true,
+  "id" : 2
+} ]

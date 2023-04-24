@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.femass.controller.MedicoController">
+  <children>
+    <Button layoutX="617.0" layoutY="453.0" mnemonicParsing="false" onAction="#BtnGravar_Click" prefHeight="25.0" prefWidth="78.0" text="Gravar" />
+    <Button layoutX="364.0" layoutY="453.0" mnemonicParsing="false" onAction="#BtnExcluir_Click" prefHeight="25.0" prefWidth="78.0" text="Excluir" />
+    <GridPane layoutX="355.0" layoutY="54.0" prefHeight="344.0" prefWidth="340.0">
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="135.0" minWidth="10.0" prefWidth="91.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="207.0" minWidth="10.0" prefWidth="128.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="207.0" minWidth="10.0" prefWidth="90.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="65.0" minHeight="10.0" prefHeight="57.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="124.0" minHeight="10.0" prefHeight="59.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="121.0" minHeight="10.0" prefHeight="69.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="85.0" minHeight="10.0" prefHeight="67.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="77.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="57.0" minHeight="10.0" prefHeight="57.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+      <children>
+        <Label text="Id" />
+        <Label text="Nome" GridPane.rowIndex="1" />
+        <Label text="Telefone" GridPane.rowIndex="4" />
+        <Label text="CPF" GridPane.rowIndex="2" />
+        <Label text="Email" GridPane.rowIndex="3" />
+        <ComboBox fx:id="CboEspecialidades" prefHeight="25.0" prefWidth="261.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="5" />
+        <TextField fx:id="TxtIdMedico" GridPane.columnIndex="1" />
+        <TextField fx:id="TxtNome" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+        <TextField fx:id="TxtCpf" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+        <TextField fx:id="TxtEmail" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+        <TextField fx:id="TxtTelefone" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4" />
+            <Label text="Especialidades" GridPane.rowIndex="5" />
+      </children>
+    </GridPane>
+    <ListView fx:id="listaMedicos" layoutX="29.0" layoutY="34.0" onMouseClicked="#listaMedicomouseClicked" prefHeight="383.0" prefWidth="253.0" />
+      <Button layoutX="29.0" layoutY="453.0" mnemonicParsing="false" onAction="#BtnNovo_Click" prefHeight="25.0" prefWidth="78.0" text="Novo" />
+  </children>
+</Pane>

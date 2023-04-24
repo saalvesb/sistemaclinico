@@ -1,0 +1,53 @@
+[ {
+  "id" : 1,
+  "cpf" : "47470373063",
+  "nome" : "Bernardo",
+  "endereco" : "Rua B",
+  "telefones" : [ "222222222" ],
+  "email" : "bernardo@bernardo",
+  "ativo" : true,
+  "planoSaude" : {
+    "id" : 1,
+    "planoSaude" : "Unimed",
+    "ativo" : true
+  }
+}, {
+  "id" : 2,
+  "cpf" : "75839342068",
+  "nome" : "Laura",
+  "endereco" : "Rua A",
+  "telefones" : [ "111111111" ],
+  "email" : "laura@laura",
+  "ativo" : true,
+  "planoSaude" : {
+    "id" : 1,
+    "planoSaude" : "Unimed",
+    "ativo" : true
+  }
+}, {
+  "id" : 3,
+  "cpf" : "58209460064",
+  "nome" : "Bianca",
+  "endereco" : "Rua D",
+  "telefones" : [ "444444444" ],
+  "email" : "bianca@bianca",
+  "ativo" : true,
+  "planoSaude" : {
+    "id" : 3,
+    "planoSaude" : "Bradesco",
+    "ativo" : true
+  }
+}, {
+  "id" : 4,
+  "cpf" : "71831217040",
+  "nome" : "Lucas",
+  "endereco" : "Rua C",
+  "telefones" : [ "333333333" ],
+  "email" : "lucas@lucas",
+  "ativo" : true,
+  "planoSaude" : {
+    "id" : 2,
+    "planoSaude" : "SulAmérica",
+    "ativo" : true
+  }
+} ]
